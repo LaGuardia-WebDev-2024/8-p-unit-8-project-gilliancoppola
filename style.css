@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/024/113/822/non_2x/abstract-retro-groovy-background-wavy-swirl-pattern-vintage-psychedelic-social-media-post-template-trippy-cover-design-square-poster-in-60s-70s-style-pastel-yellow-liquid-hippie-texture-vector.jpg);
+  background-color: hsl(176, 22%, 74%) ;
+  background-blend-mode:overlay;
   text-align: center;
   color: navy;
   margin: auto;
@@ -16,11 +18,14 @@ h1{
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("https://flashbak.com/wp-content/uploads/2017/10/1978-bed-room-vintage.jpg");
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;
 }
+
+
+
 
 
 
