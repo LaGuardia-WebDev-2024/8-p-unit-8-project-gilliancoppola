@@ -4,6 +4,7 @@
 }
 
 body {
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='54' height='65' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>💿</text></svg>") 16 0,auto; /*!emojicursor.app*/
   background-image: url(https://static.vecteezy.com/system/resources/previews/024/113/822/non_2x/abstract-retro-groovy-background-wavy-swirl-pattern-vintage-psychedelic-social-media-post-template-trippy-cover-design-square-poster-in-60s-70s-style-pastel-yellow-liquid-hippie-texture-vector.jpg);
   background-color: hsl(176, 22%, 74%) ;
   background-blend-mode:overlay;

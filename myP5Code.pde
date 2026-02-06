@@ -27,7 +27,7 @@ text("🎵",410,noteY-30);
 };
 
 //musicnote variable
-var noteY = 500; 
+var noteY = 200; 
 
 //🟢draw Function - will run on repeat
 
@@ -40,7 +40,7 @@ var noteY = 500;
 
 noteY += 10;
 
-if(noteY > 400){
+if(noteY < 400){
   noteY=0
 }
 
