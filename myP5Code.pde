@@ -21,9 +21,11 @@ text("🎵",250,noteY);
 text("🎵",290,noteY-50);
 text("🎵",410,noteY-30);
 
+text("cat",catX, 350);
+
 
   if(mousePressed){
-
+    catX++
     noteY--
   }
 
@@ -31,6 +33,7 @@ text("🎵",410,noteY-30);
 
 //musicnote variable
 var noteY = 200; 
+var catX = 125;
 
 //🟢draw Function - will run on repeat
 
@@ -42,6 +45,7 @@ var noteY = 200;
 /*
 
 noteY += 10;
+catX += 10;
 
 if(noteY < 400){
   noteY=0
