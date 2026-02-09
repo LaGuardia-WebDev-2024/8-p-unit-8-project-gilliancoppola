@@ -11,6 +11,8 @@ draw = function(){
     drawGirl(300, 240);
     drawHeadphones(297,223);
     drawVhs(228,265);
+    drawPlayer(229,265);
+    drawPlayer(256,265);
     drawVhs(310,370);
     
     textSize(30);
@@ -70,5 +72,9 @@ var drawVhs = function(vhsX, vhsY){
   text("📼", vhsX, vhsY);
 };
 
-
+//player
+var drawPlayer = function(vhsX, vhsY){
+  textSize(50);
+  text("𖤓", vhsX, vhsY);
+};
 
