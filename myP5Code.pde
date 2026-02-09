@@ -14,6 +14,7 @@ draw = function(){
     drawPlayer(229,265);
     drawPlayer(256,265);
     drawVhs(310,370);
+    drawWire(286,260);
     
     textSize(30);
 text("🎵",250,noteY);
@@ -76,5 +77,11 @@ var drawVhs = function(vhsX, vhsY){
 var drawPlayer = function(vhsX, vhsY){
   textSize(50);
   text("𖤓", vhsX, vhsY);
+};
+
+//wire
+var drawWire = function(vhsX, vhsY){
+  textSize(50);
+  text("꠹", vhsX, vhsY);
 };
 
